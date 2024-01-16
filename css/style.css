@@ -150,12 +150,12 @@ ol {
 
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
     border-color: var(--primary);
 }
 
 .btn-primary:hover {
-    background-color: var(--dark);
+    background-color: var(--dark) !important;
     border-color: var(--dark);
 }
 
