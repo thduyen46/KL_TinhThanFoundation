@@ -43,7 +43,7 @@ html {
 
 body {
     font-family: var(--font-default);
-    position: relative;F
+    position: relative;
     font-size: 16px;
     height: 100%;
     line-height: 1.5;
@@ -163,6 +163,10 @@ ol {
     text-decoration: none;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -239,7 +243,7 @@ ol {
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+    transition: all 0.5s;
 }
 
 .navbar .navbar-brand,
@@ -753,3 +757,4 @@ a.read-more-btn:hover {
     letter-spacing: 1px;
     box-shadow: none;
 }
+

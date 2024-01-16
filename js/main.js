@@ -16,15 +16,31 @@
     new WOW().init();
 
 
-    // Sticky Navbar
+    var lastScrollTop = 0;
+
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        var currentScrollTop = $(this).scrollTop();
+    
+        if (currentScrollTop > 300) {
+            if (currentScrollTop > lastScrollTop) {
+                // Người dùng đang lướt xuống
+                console.log("Người dùng đang lướt xuống.");
+            } else {
+                // Người dùng đang lướt lên
+                $('.sticky-top').addClass('position-fixed w-100');
+            }
+        }
+        
+        // Thêm logic thêm vào hoặc loại bỏ class 'shadow-sm', 'top', vv.
+        if (currentScrollTop > 300) {
             $('.sticky-top').addClass('shadow-sm').css('top', '0px');
         } else {
-            $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
+            $('.sticky-top').removeClass('shadow-sm position-fixed').css('top', '-100px');
         }
+        lastScrollTop = currentScrollTop;
     });
     
+
     
     // Back to top button
     $(window).scroll(function () {
