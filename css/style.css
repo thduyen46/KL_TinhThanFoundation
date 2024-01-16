@@ -26,7 +26,7 @@ Version      : 1.0
 /* Font */
 
 :root {
-    --font-default: "Inter", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-default: "Inter", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Heebo";
     --font-primary: "Roboto", sans-serif;
     --font-secondary: "Work Sans", sans-serif;
     --font-navbar: 'SF Pro Text', sans-serif;
@@ -145,8 +145,9 @@ ol {
 	3. Custom Boostrap
 -----------------------*/
 .text-primary {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
+
 
 .btn-primary {
     background-color: var(--primary);
