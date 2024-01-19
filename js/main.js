@@ -98,7 +98,6 @@
 				nav: false,
 				smartSpeed: 1000,
 				dots: true,
-				loop: true,
 				center: true,
 				margin: 20,
 				responsive:{
