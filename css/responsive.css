@@ -1,0 +1,8 @@
+@media (max-width: 991.98px) {
+    #header-carousel .title-carourel {
+        font-size: 35px!important;
+    }
+    #header-carousel p {
+        font-size: 12px;
+    }
+}
