@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tổ chức Tình Thân Foundation</title>
+    <title>Tình thân website</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -14,160 +14,118 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:300,900">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+                
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="./lib/normalize/normalize.min.css">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.theme.default.min.css">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./lib/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+        <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
 
+
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span>098 338 89 93</span>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <span class="far fa-envelope me-2"></span>
-                    <a href="mailto: sonpham.npo@gmail.com">sonpham.npo@gmail.com</a>
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Hồ Chí Minh</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+84 98 338 89 93</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>sonpham.npo@gmail.com</small>
                 </div>
             </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span>Liên hệ:</span>
-                    <a class="btn btn-link text-light" href="https://www.facebook.com/profile.php?id=100077601589557"><i class="fab fa-facebook-f"></i></a>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h3 class="m-0 header-title">Tình Thân Foundation</h3>
-        </a>
-        <button type="submit" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse menu" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Trang Chủ</a>
-                <a href="about.html" class="nav-item nav-link">Giới Thiệu</a>             
 
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hoạt Động</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="Tiet-kiem-tin-dung.html" class="dropdown-item">Tiết Kiệm Tín Dụng</a>
-                        <a href="Truyen-thong-ve-HIV-AIDS.html" class="dropdown-item">Truyền Thông về HIV/AIDS</a>
-                        <a href="Truyen-thong-ve-bao-luc-gia-dinh.html" class="dropdown-item">Truyền Thông về Bạo Lực Gia Đình</a>
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="./img/Artboard 1 copyA4 .png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                    <a href="about.html" class="nav-item nav-link">Về chúng tôi</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Đóng Góp</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="Doi-tac.html" class="dropdown-item">Đối Tác</a>
-                        <a href="Nha-tai-tro.html" class="dropdown-item">Nhà Tài Trợ</a>
-                        <a href="Manh-thuong-quan.html" class="dropdown-item">Mạnh Thường Quân</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                            <a href="feature.html" class="dropdown-item">Our features</a>
+                            <a href="team.html" class="dropdown-item">Team Members</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        </div>
                     </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Khách Hàng</a>
-                <a href="login.html" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block" style = "font-size: 18px;">Đăng Nhập<i class="fa fa-arrow-right ms-3"></i></a>
+                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
             </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+        </nav>
 
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="h-100 ">
-                        <img class="w-100 carousel-img" src="img/carousel-2.jpg" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="w-100 ms-lg-5 container-fluid">
-                                <div class="row justify-content-lg-start justify-content-center">
-                                    <div class="col-lg-6 col-10 carousel-content">
-                                        <div class="mb-5">
-                                            <h1 class="text-white mb-3 animated slideInDown title-carourel">Truyền Thông Về HIV/AIDS</h1>
-                                            <p >Neugiat consequat eu sed eros. Cras suscipit eu est sed imperdiet.
-                                            Curabitur ultrices dolor magna, at vene.</p>
-                                        </div>
-                                        
-                                        <a href="Truyen-thong-ve-HIV-AIDS.html" class="btn btn-primary py-sm-3 px-sm-4">Tìm Hiểu Thêm</a>
-                                    </div>
-                                </div>
-                            </div>
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Tình thân & Foundation</h5>
+                            <h1 class="display-2 text-white mb-md-4 animated zoomIn">Truyền Thông Về HIV/AIDS</h1>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Đọc thêm</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Liên hệ</a>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="carousel-item">
-                    <div class="h-100 ">
-                        <img class="w-100  carousel-img" src="img/carousel-3.jpg" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="w-100 ms-lg-5 container-fluid">
-                                <div class="row justify-content-lg-start justify-content-center">
-                                    <div class="col-lg-6 col-10 carousel-content">
-                                        <div class="mb-5">
-                                            <h1 class="text-white mb-3 animated slideInDown title-carourel">Truyền Thông Về Bạo Lực Gia Đình</h1>
-                                            <p >Neugiat consequat eu sed eros. Cras suscipit eu est sed imperdiet.
-                                                Curabitur ultrices dolor magna, at vene.</p>
-                                        </div>
-                                        <a href="Truyen-thong-ve-bao-luc-gia-dinh.html" class="btn btn-primary py-sm-3 px-sm-4">Tìm Hiểu Thêm</a>
-                                    </div>
-                                </div>
-                            </div>
+                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Tình thân & Foundation</h5>
+                            <h1 class="display-2 text-white mb-md-4 animated zoomIn">Truyền Thông Về Bạo Lực Gia Đình</h1>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Đọc thêm</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Liên hệ</a>
                         </div>
                     </div>
-                    
                 </div>
-                <div class="carousel-item">
-                    <div class="h-100 ">
-                        <img class="w-100  carousel-img" src="img/carousel-1.jpg" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="w-100 ms-lg-5 container-fluid">
-                                <div class="row justify-content-lg-start justify-content-center">
-                                    <div class="col-lg-6 col-10  carousel-content">
-                                        <div class="mb-5">
-                                            <h1 class="text-white mb-3 animated slideInDown title-carourel">Chương Trình Tiết Kiệm Tín Dụng</h1>
-                                            <p >Neugiat consequat eu sed eros. Cras suscipit eu est sed imperdiet.
-                                                Curabitur ultrices dolor magna, at vene.</p>
-                                        </div>
-                                        <a href="Tiet-kiem-tin-dung.html" class="btn btn-primary py-sm-3 px-sm-4">Tìm Hiểu Thêm</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                        
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="prev">
@@ -181,152 +139,131 @@
             </button>
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Navbar & Carousel End -->
 
-    <!-- Top Feature Start -->
-    <div class="container-fluid top-feature py-5 pt-lg-0">
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
         <div class="container py-5 pt-lg-0">
             <div class="row gx-0">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-times text-dark"></i>
-                            </div>                                                                        
-                            <div class="ps-3">
-                                <h4>Không Phát Sinh Chi Phí</h4>
-                                <span>Đảm bảo tính minh bạch và sự công bằng trong quá trình làm việc.</span>
-                            </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Hộ dân tin tưởng</h5>
+                            <h3 class="text-white mb-0" data-toggle="counter-up">12345</h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-users text-dark"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4>Đội Ngũ Cống Hiến</h4>
-                                <span>Tập trung vào một dự án để đạt kết quả tốt nhất.</span>
-                            </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Dự án hoàn thành</h5>
+                            <h3 class="mb-0" data-toggle="counter-up">12345</h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-phone text-dark"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4>Luôn Có Sẵn 24/7</h4>
-                                <span>Hoạt động liên tục mọi lúc, mọi nơi khi khách hàng cần giúp đỡ.</span>
-                            </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-award text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Tổng Số Tiền Đã Quyên Góp</h5>
+                            <h3 class="text-white mb-0"><span  data-toggle="counter-up">100,000,000</span> <span style="font-size: 16px;">VNĐ</span></h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Top Feature End -->
+    <!-- Facts Start -->
 
 
-    <!-- About Start -->   
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about-1.png" width="100%">     
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="container">
-                                <h3 class="text-primary mb-2 mb-lg-3 fw-bold text-uppercase">TẦM NHÌN</h3>                    
-                                <p class="mb-4 text-justify">Tình Thân tin rằng sẽ tạo ra một cuộc sống bền vững bằng cách thúc đẩy 
-                                    năng lực và sự tham gia toàn diện của người dân. Chúng tôi tin rằng mỗi cá nhân đều 
-                                    có tiềm năng và khả năng để đóng góp vào sự phát triển của xã hội. Cuộc sống bền vững 
-                                    không chỉ đơn thuần là về kinh tế, mà còn liên quan đến các khía cạnh văn hóa, môi trường và xã hội.
-                                </p>
-                            </div>
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Về chúng tôi</h5>
+                        <h1 class="mb-0">Tình Thân - 28 Năm Hành Trình Vì Cộng Đồng TP.HCM</h1>
+                    </div>
+                    <p class="mb-4">"Tình Thân, thành lập từ 1996, hỗ trợ cộng đồng nghèo TP.HCM với nhiều hoạt động như truyền thông HIV/AIDS, chống bạo hành, giảm thiểu đói. Chương trình 'Tiết Kiệm Tín Dụng' (TKTD) giúp người nghèo mượn vốn, nhưng thách thức là làm thế nào họ có thể hoàn trả vốn lẫn lãi, đang được nghiên cứu sâu rộng (Phạm Trường Sơn, 2022)."</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Không Phát Sinh Chi Phí</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Đội Ngũ Cống Hiến</h5>
                         </div>
-                        <div class="col-md-12">
-                            <div class="container">
-                                <h3 class="text-primary mb-2 mb-lg-3 fw-bold text-uppercase">Sứ Mệnh</h3>                    
-                                <p class="mb-4 text-justify">Tăng cường năng lực tài chính cho người dân.
-                                    <br>Thúc đẩy sự tham gia nhằm huy động nguồn lực cộng đồng.
-                                    <br>Nâng cao chất lượng cuộc sống người dân bằng sự tự quyết của chính họ.
-                                </p>
-                            </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Hỗ trợ 24/7</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Chuyên môn và chuyên nghiệp</h5>
                         </div>
                     </div>
-                </div>             
-            </div>
-        </div>
-    </div>
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-9 col-md-7 wow fadeInUp" data-wow-delay="0.3s">                             
-                    <h3 class="text-primary mb-2 mb-lg-3 fw-bold text-uppercase">GIÁ TRỊ</h3>
-                    <p class="mb-4 text-justify"><strong>Tôn trọng:</strong> Chúng tôi tin rằng người dân có kiến thức, 
-                        kỹ năng và kinh nghiệm quý báu của mình, do đó chúng tôi chỉ là người học tập nhằm 
-                        hỗ trợ người dân ra quyết định cho cuộc sống của chính họ.
-                    <p class="mb-4 text-justify"><strong>Liêm chính:</strong> Là những người thực hành công tác xã hội 
-                        và phát triển cộng đồng, chúng tôi luôn noi theo những quy điều đạo đức ngành đã 
-                        xây dựng. Trong đó liêm chính trong hoạt động và tài chính được đặt lên hàng đầu.
-                    <p class="mb-4 text-justify"><strong>Chấp nhận:</strong> Làm việc với người nghèo thành thị luôn 
-                        luôn có nhiều bài học kinh nghiệm thực tế, vì vậy chúng tôi chấp nhận những khiếm 
-                        khuyết và rủi ro để cùng nhau điều chỉnh và hướng tới sự chuyên nghiệp.                  
-                    <p class="mb-4 text-justify"><strong>Chuyên môn và chuyên nghiệp:</strong> Chúng tôi luôn hoàn thiện 
-                        năng lực đội ngũ của mình để có thể phục vụ tốt cho cộng đồng nghèo thành thị. Ngoài ra, 
-                        chúng tôi cũng mong muốn chia sẻ chuyên môn của mình để các cộng đồng khác có thể học tập và cùng 
-                        nhau phát triển bền vững hơn.</p>                 
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Gọi để đặt bất kỳ câu hỏi nào</h5>
+                            <h4 class="text-primary mb-0">+84 98 338 89 93</h4>
+                        </div>
+                    </div>
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Đọc thêm</a>
                 </div>
-                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about-2.png">
-                </div>              
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
-    <!-- Title Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">           
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <h1 class="display-5 text-primary mb-5">TÌNH THÂN VÀ CỘNG ĐỒNG</h1>
-                    <p class="fs-5 text-white">Vai trò của Tình Thân Foundation sẽ định hướng vào việc Hỗ Trợ Tiết Kiệm Tín Dụng, 
-                        <br>đối phó với Bạo Lực Gia Đình và Phòng Chống HIV/AIDS
-                    </p>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    <!-- Title End -->
-
     <!-- Features Start -->
-    <section class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Tại sao bạn nên chọn chúng tôi?</p>
-                    <h1 class="display-5 mb-4">Nhịp Đập Tình Thân</h1>
-                    <p class="mb-4 text-justify">Chúng tôi là một tổ chức có niềm đam mê trong việc xây dựng cuộc sống bền vững 
-                        cho cộng đồng. Chúng tôi không chỉ tập trung vào việc cải thiện chất lượng cuộc sống của người 
-                        dân, mà còn thúc đẩy sự tham gia toàn diện của họ trong quá trình này.</p>
-                    <a class="btn btn-primary py-3 px-4" href="about.html">Tìm Hiểu Thêm</a>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-center align-items-center">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Hỗ trợ</h5>
+                        <h1 class="mb-0">Bạn Đang Cần Hỗ Trợ?</h1>
+                    </div>
+                    <p class="mb-4">"Chúng tôi là một tổ chức có niềm đam mê trong việc xây dựng cuộc sống bền vững cho cộng đồng. Chúng tôi không chỉ tập trung vào việc cải thiện chất lượng cuộc sống của người dân, mà còn thúc đẩy sự tham gia toàn diện của họ trong quá trình này."</p>
+                    <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Liên hệ ngay</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="row g-4 align-items-center">
                         <div class="col-md-6">
                             <div class="row g-4">
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
                                     <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                        <div class="btn-square bg-light rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4" style="width: 90px; height: 90px;">
                                             <i class="fa fa-check fa-3x text-primary"></i>
                                         </div>
                                         <h4 class="mb-0">100% Hài lòng</h4>
@@ -334,7 +271,7 @@
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
                                     <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                        <div class="btn-square bg-light rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4" style="width: 90px; height: 90px;">
                                             <i class="fa fa-users fa-3x text-primary"></i>
                                         </div>
                                         <h4 class="mb-0">Giúp đỡ tận tụy</h4>
@@ -344,7 +281,7 @@
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
                             <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <div class="btn-square bg-light rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4" style="width: 90px; height: 90px;">
                                     <i class="fas fa-handshake fa-3x text-primary"></i>
                                 </div>
                                 <h4 class="mb-0">Hỗ trợ người dân</h4>
@@ -354,245 +291,291 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Features End -->
+    </div>
+    <!-- Features Start -->
 
-    <!-- Projects Start -->
-    <section class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                <h2 class="fw-bold mb-5">Dự Án Của Chúng Tôi</h2>
-            </div>
-            <div class="row wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline rounded mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="all">Tất cả</li>
-                        <li class="mx-2" data-filter=".first">Tiết Kiệm Tín Dụng</li>
-                        <li class="mx-2" data-filter=".second">Bạo Lực Gia Đình</li>
-                        <li class="mx-2" data-filter=".third">HIV/AIDS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item mix first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Landscaping</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item mix second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Pruning plants</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item mix first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Irrigation & Drainage</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item mix second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Garden Maintenance</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item mix first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Green Technology</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item mix third wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Urban Gardening</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Projects End -->
-
-    <!-- Testimonial Start -->
-    <section class="container-xxl py-5">
-        <div class="container">
+    <!-- Quote Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-5">Đánh Giá Của Khách Hàng</h1>
-                    <p class="mb-4 text-justify">Nếu bạn có bất kỳ câu hỏi, phản hồi hoặc yêu cầu, xin vui lòng liên hệ với chúng tôi. 
-                        Chúng tôi luôn sẵn lòng lắng nghe và cung cấp hỗ trợ tốt nhất để đáp ứng nhu cầu của bạn!</p>
-                    <a class="btn btn-primary py-3 px-4" href="contact.html">Liên Hệ Với Chúng Tôi</a>
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="container">
-                        <div class="owl-carousel testimonial-carousel">
-                            <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/testimonial-1.jpg" alt="">
-                                <p class="fs-5 text-justify">Sản phẩm này thực sự ấn tượng với chất lượng và thiết kế đẳng cấp, đáp ứng đầy đủ mong đợi của tôi.</p>
-                                <h4>Nguyễn Anh Minh</h4>          
-                            </div>
-                            <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/testimonial-2.jpg" alt="">
-                                <p class="fs-5 text-justify">Dịch vụ khách hàng xuất sắc, nhân viên nhiệt tình và giải quyết vấn đề của tôi một cách nhanh chóng. Tôi rất hài lòng với trải nghiệm của mình.</p>
-                                <h4>Lâm Bảo Ngọc</h4>                          
-                            </div>
-                            <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/testimonial-1.jpg" alt="">
-                                <p class="fs-5 text-justify">Ứng dụng này rất tiện lợi và dễ sử dụng, mang lại trải nghiệm người dùng tốt và hiệu suất ổn định.</p>
-                                <h4>Ngô Trọng Quân</h4>                          
-                            </div>
-                            <div class="testimonial-item">
-                                <img class="img-fluid rounded mb-3" src="img/testimonial-2.jpg" alt="">
-                                <p class="fs-5 text-justify">Sách mới của tác giả này thực sự gây ấn tượng, nội dung sâu sắc và ngôn ngữ tinh tế, đáng đọc.</p>
-                                <h4>Đinh Thị Phương Anh</h4>                          
-                            </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">TRỞ THÀNH TÌNH NGUYỆN VIÊN</h5>
+                        <h1 class="mb-0">Chúng tôi cần sự giúp đỡ của bạn, hãy trở thành một thành viên của chúng tôi</h1>
+                    </div>
+                    <div class="row gx-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Phản hồi bạn trong 24 giờ</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>Hỗ trợ qua điện thoại 24 giờ</h5>
                         </div>
                     </div>
-                    
+                    <p class="mb-4">Chúng tôi là một tổ chức có niềm đam mê trong việc xây dựng cuộc sống bền vững cho cộng đồng. Chúng tôi không chỉ tập trung vào việc cải thiện chất lượng cuộc sống của người dân, mà còn thúc đẩy sự tham gia toàn diện của họ trong quá trình này.</p>
+                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Gọi để đặt bất kỳ câu hỏi nào</h5>
+                            <h4 class="text-primary mb-0">+84 98 338 89 93</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <h3 class="text-center text-white">Đăng ký làm tình nguyện viên</h3>
+                                </div>
+                                <div class="col-xl-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Tên của bạn" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email của bạn" style="height: 55px;">
+                                </div>
+                                <!-- <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div> -->
+                                <div class="col-12">
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Địa chỉ của bạn"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Đăng ký tình nguyện viên</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Testimonial End -->
+    </div>
+    <!-- Quote End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Lãnh đạo</h5>
+                <h1 class="mb-0">Những lãnh đạo dẫn dắt Tình Thân</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="./img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
 
     <!-- Blog Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h3 class="display-5 mb-5">Các Bài Viết Gần Đây</h3>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Bài Viết Gần Đây</h5>
+                <h1 class="mb-0">Đọc các bài viết mới nhất từ bài đăng trên blog của chúng tôi</h1>
             </div>
-            <div class="wow fadeInUp" data-wow-delay="0.5s">
-                <div id="owl-blog" class="owl-carousel owl-blog owl-theme owl-loaded owl-drag">
-                    <div class="item">
-                        <div class="single-blog">
-                            <div class="single-blog-img hov-img-zoom image">
-                              <img
-                                src="./img/related-1.jpg"
-                                alt="blog image">
-                              <div class="single-blog-img-overlay"></div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Tình Thân</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>Thảo Duyên</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
                             </div>
-                            <div class="single-blog-content">
-                              <p class="blog-date">12/11/2023</p>
-                              <h2><a href="#" class="fw-bold">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h2>
-                              <p class="text-justify">
-                                Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là
-                                rẻo cao Tây Bắc luôn làm say lòng...
-                              </p>
-                              <a href="single-news.html" class="read-more-btn"><span class="me-2">Đọc thêm</span><i class="fas fa-angle-right"></i></a>
-                            </div>
+                            <h4 class="mb-3">Hoạt động tình thân</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="single-blog">
-                            <div class="single-blog-img hov-img-zoom image">
-                              <img
-                                src="./img/related-1.jpg"
-                                alt="blog image">
-                              <div class="single-blog-img-overlay"></div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Tình Thân</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>Thảo Duyên</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
                             </div>
-                            <div class="single-blog-content">
-                              <p class="blog-date">12/11/2023</p>
-                              <h2><a href="#" class="fw-bold">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h2>
-                              <p class="text-justify">
-                                Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là
-                                rẻo cao Tây Bắc luôn làm say lòng...
-                              </p>
-                              <a href="single-news.html" class="read-more-btn"><span class="me-2">Đọc thêm</span><i class="fas fa-angle-right"></i></a>
-                            </div>
+                            <h4 class="mb-3">Hoạt động tình thân</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="single-blog">
-                            <div class="single-blog-img hov-img-zoom image">
-                              <img
-                                src="./img/related-1.jpg"
-                                alt="blog image">
-                              <div class="single-blog-img-overlay"></div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Tình Thân</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>Thảo Duyên</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
                             </div>
-                            <div class="single-blog-content">
-                              <p class="blog-date">12/11/2023</p>
-                              <h2><a href="#" class="fw-bold">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h2>
-                              <p class="text-justify">
-                                Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là
-                                rẻo cao Tây Bắc luôn làm say lòng...
-                              </p>
-                              <a href="single-news.html" class="read-more-btn"><span class="me-2">Đọc thêm</span><i class="fas fa-angle-right"></i></a>
-                            </div>
+                            <h4 class="mb-3">Hoạt động tình thân</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="single-blog">
-                            <div class="single-blog-img hov-img-zoom image">
-                              <img
-                                src="./img/related-1.jpg"
-                                alt="blog image">
-                              <div class="single-blog-img-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Start -->
+
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/vendor-1.jpg" alt="">
+                    <img src="img/vendor-2.jpg" alt="">
+                    <img src="img/vendor-3.jpg" alt="">
+                    <img src="img/vendor-4.jpg" alt="">
+                    <img src="img/vendor-5.jpg" alt="">
+                    <img src="img/vendor-6.jpg" alt="">
+                    <img src="img/vendor-7.jpg" alt="">
+                    <img src="img/vendor-8.jpg" alt="">
+                    <img src="img/vendor-9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="./img/Artboard 1 copyA4 .png" alt="">
+                        </a>
+                        <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Đăng ký nhận tin</button>
                             </div>
-                            <div class="single-blog-content">
-                              <p class="blog-date">12/11/2023</p>
-                              <h2><a href="#" class="fw-bold">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h2>
-                              <p class="text-justify">
-                                Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là
-                                rẻo cao Tây Bắc luôn làm say lòng...
-                              </p>
-                              <a href="single-news.html" class="read-more-btn"><span class="me-2">Đọc thêm</span><i class="fas fa-angle-right"></i></a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Liên lạc</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">54/3 Lê Quang Định, Phường 14, Quận Bình Thạnh, TP.HCM</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">sonpham.npo@gmail.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+84 98 338 89 93</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="single-blog">
-                            <div class="single-blog-img hov-img-zoom image">
-                              <img
-                                src="./img/related-1.jpg"
-                                alt="blog image">
-                              <div class="single-blog-img-overlay"></div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
                             </div>
-                            <div class="single-blog-content">
-                              <p class="blog-date">12/11/2023</p>
-                              <h2><a href="#" class="fw-bold">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h2>
-                              <p class="text-justify">
-                                Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là
-                                rẻo cao Tây Bắc luôn làm say lòng...
-                              </p>
-                              <a href="single-news.html" class="read-more-btn"><span class="me-2">Đọc thêm</span><i class="fas fa-angle-right"></i></a>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -600,44 +583,15 @@
             </div>
         </div>
     </div>
-    <!-- Blog End -->
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Văn Phòng</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> 54/3 Lê Quang Định, Phường 14, Quận Bình Thạnh, TP.HCM</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>098 338 89 93</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i> <a href="mailto: sonpham.npo@gmail.com">sonpham.npo@gmail.com</a></p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/profile.php?id=100077601589557"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Dịch Vụ</h4>
-                    <ul>
-                        <li><a class="btn btn-link" href="">Tiết Kiệm Tín Dụng</a></li>
-                        <li><a class="btn btn-link" href="">Truyền Thông về HIV/AIDS</a></li>
-                        <li><a class="btn btn-link" href="">Truyền Thông về Bạo Lực Gia Đình</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Thông Tin Khác</h4>
-                    <ul>
-                        <li><a class="btn btn-link" href="">Về Chúng Tôi</a></li>
-                        <li><a class="btn btn-link" href="">Liên Hệ Chăm Sóc Khách Hàng</a></li>
-                        <li><a class="btn btn-link" href="">Dịch Vụ Của Chúng Tôi</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Kết Nối Với Chúng Tôi</h4> 
-                    
-                    <div class="position-relative w-100">
-                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Địa chỉ email của bạn.">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Đăng Ký</button>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Tình Thân</a>. All Rights Reserved. 
+						
+						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+						Designed by <a class="text-white border-bottom" href="#">Thảo Duyên</a></p>
                     </div>
                 </div>
             </div>
@@ -645,22 +599,20 @@
     </div>
     <!-- Footer End -->
 
+
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="./lib/Mixiup/mixitup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
